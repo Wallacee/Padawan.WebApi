@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Padawan.WebApi.Domain", "Padawan.WebApi.Model\Padawan.WebApi.Domain.csproj", "{D4B859BC-06E0-4FC9-9D6B-A509A3DC1CF8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Padawan.WebApi.Dal", "Padawan.WebApi.Dal\Padawan.WebApi.Dal.csproj", "{B6770119-A4AA-40C2-B75C-119AE1B7CAD5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Padawan.WebApi.Api", "Padawan.WebApi.Api\Padawan.WebApi.Api.csproj", "{F525CE9F-8AFF-408D-AEAB-930480101622}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Padawan.WebApi.Api.Service", "Padawan.WebApi.Api.Service\Padawan.WebApi.Api.Service.csproj", "{48437A96-3D8D-4267-9C72-805C248BFA2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{BAF2B650-A3C0-4704-8D47-BEECEC40D43E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{1E813985-BCE9-4C4F-B7B7-BCC7E52F4A43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{6F3FA6FC-388B-4508-AD5C-47CD18B3DE86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aplication", "Aplication", "{91D52A13-D870-4678-AD6E-233DB46B282E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Padawan.WebApi.IoC", "Padawan.WebApi.IoC\Padawan.WebApi.IoC.csproj", "{D1944D17-1D89-4F86-AE2E-B6609FD9696F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Padawan.WebApi.Swagger", "Padawan.WebApi.Swagger\Padawan.WebApi.Swagger.csproj", "{ABCCA46D-A9E3-4FBF-85FA-FF8B3054F32D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Padawan.WebApi.Infra", "Padawan.WebApi.Infra\Padawan.WebApi.Infra.csproj", "{E091A2A3-A26A-4DEA-8E23-40764B9BF673}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Padawan.WebApi.Auth", "Padawan.WebApi.Auth\Padawan.WebApi.Auth.csproj", "{97BDF85B-8834-423F-92A9-EC89108EE226}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4B859BC-06E0-4FC9-9D6B-A509A3DC1CF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4B859BC-06E0-4FC9-9D6B-A509A3DC1CF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4B859BC-06E0-4FC9-9D6B-A509A3DC1CF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4B859BC-06E0-4FC9-9D6B-A509A3DC1CF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6770119-A4AA-40C2-B75C-119AE1B7CAD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6770119-A4AA-40C2-B75C-119AE1B7CAD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6770119-A4AA-40C2-B75C-119AE1B7CAD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6770119-A4AA-40C2-B75C-119AE1B7CAD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F525CE9F-8AFF-408D-AEAB-930480101622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F525CE9F-8AFF-408D-AEAB-930480101622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F525CE9F-8AFF-408D-AEAB-930480101622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F525CE9F-8AFF-408D-AEAB-930480101622}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48437A96-3D8D-4267-9C72-805C248BFA2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48437A96-3D8D-4267-9C72-805C248BFA2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48437A96-3D8D-4267-9C72-805C248BFA2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48437A96-3D8D-4267-9C72-805C248BFA2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1944D17-1D89-4F86-AE2E-B6609FD9696F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1944D17-1D89-4F86-AE2E-B6609FD9696F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1944D17-1D89-4F86-AE2E-B6609FD9696F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1944D17-1D89-4F86-AE2E-B6609FD9696F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABCCA46D-A9E3-4FBF-85FA-FF8B3054F32D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABCCA46D-A9E3-4FBF-85FA-FF8B3054F32D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABCCA46D-A9E3-4FBF-85FA-FF8B3054F32D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABCCA46D-A9E3-4FBF-85FA-FF8B3054F32D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E091A2A3-A26A-4DEA-8E23-40764B9BF673}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E091A2A3-A26A-4DEA-8E23-40764B9BF673}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E091A2A3-A26A-4DEA-8E23-40764B9BF673}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E091A2A3-A26A-4DEA-8E23-40764B9BF673}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97BDF85B-8834-423F-92A9-EC89108EE226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97BDF85B-8834-423F-92A9-EC89108EE226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97BDF85B-8834-423F-92A9-EC89108EE226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97BDF85B-8834-423F-92A9-EC89108EE226}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D4B859BC-06E0-4FC9-9D6B-A509A3DC1CF8} = {1E813985-BCE9-4C4F-B7B7-BCC7E52F4A43}
+		{B6770119-A4AA-40C2-B75C-119AE1B7CAD5} = {6F3FA6FC-388B-4508-AD5C-47CD18B3DE86}
+		{F525CE9F-8AFF-408D-AEAB-930480101622} = {BAF2B650-A3C0-4704-8D47-BEECEC40D43E}
+		{48437A96-3D8D-4267-9C72-805C248BFA2D} = {91D52A13-D870-4678-AD6E-233DB46B282E}
+		{D1944D17-1D89-4F86-AE2E-B6609FD9696F} = {6F3FA6FC-388B-4508-AD5C-47CD18B3DE86}
+		{ABCCA46D-A9E3-4FBF-85FA-FF8B3054F32D} = {6F3FA6FC-388B-4508-AD5C-47CD18B3DE86}
+		{E091A2A3-A26A-4DEA-8E23-40764B9BF673} = {6F3FA6FC-388B-4508-AD5C-47CD18B3DE86}
+		{97BDF85B-8834-423F-92A9-EC89108EE226} = {6F3FA6FC-388B-4508-AD5C-47CD18B3DE86}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F698313-67CD-4375-ADE5-9FEE6B5EF30A}
+	EndGlobalSection
+EndGlobal
