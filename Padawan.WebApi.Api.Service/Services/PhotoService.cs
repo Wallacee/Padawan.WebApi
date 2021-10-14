@@ -38,12 +38,12 @@ namespace Padawan.WebApi.Api.Service.Services
             return mapper.Map<List<PhotoViewModel>>(photoRepository.GetPagined(pagingParameters, userId));
         }
 
-        //public bool Create(PhotoViewModel photoViewModel)
-        //{
-        //     mapper.Map<Photo>(photoViewModel);
+        public bool Create(PhotoViewModel photoViewModel)
+        {
+            mapper.Map<Photo>(photoViewModel);
 
-        //    return true;
-        //}
+            return true;
+        }
 
         public bool Create(IEnumerable<PhotoViewModel> photoViewModelList)
         {
