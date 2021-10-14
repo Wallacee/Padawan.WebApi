@@ -13,7 +13,7 @@ namespace Padawan.WebApi.Api.Controllers
     {
         private static readonly string[] Summaries = new[]
         {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm"
+            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm","nada"
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
